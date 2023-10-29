@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* hero */
+.hero {
+  background-image: url("../image/bghero.jpg");
+  background-color: #3a4f63;
+  width: 100vw;
+  padding: 41px 0 71px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.hero__img {
+  max-width: 100%;
+  display: block;
+}
+
+.hero__title {
+  color: #fff;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.hero__text {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hero__scroll {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero__scroll:hover {
+  cursor: pointer;
+  color: #00a4e5;
+  transition: 0.5s;
+  transform: scale(110%);
+}
+
+/* header */
+
+.main-header__wrap {
+  min-height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.main-header__nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 411.5px;
+}
+
+.main-header__nav-item {
+  color: #48555b;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-header__nav-item:hover {
+  cursor: pointer;
+  color: #00a4e5;
+  transition: 0.5s;
+  transform: scale(110%);
+}
+
+/* story */
+
+.story__title {
+  color: #48555b;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.story__line {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  border-color: #00a4e5;
+  margin-bottom: 77px;
+}
+
+.story__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 128px;
+}
+
+.story__info {
+  max-width: 405.076px;
+}
+
+.story__info-title {
+  color: #48555b;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.story__info-title-span {
+  color: #16ace8;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.story__info-text {
+  color: #48555b;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.story__img {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
+
+.story__img-item-wrap {
+  position: relative;
+}
+
+.story__img-item-text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  max-width: 100px;
+}
+
+/* capabilities */
+
+.capabilities__wrap-top {
+  display: flex;
+  margin-bottom: 78px;
+}
+.capabilities__title-wrap {
+  margin-right: auto;
+}
+
+.capabilities__title {
+  color: #48555b;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.capabilities__line {
+  width: 50px;
+  border-color: #00a4e5;
+}
+
+.capabilities__text {
+  max-width: 405px;
+  margin-right: 31.5px;
+  color: #48555b;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.capabilities__link {
+  display: block;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #00a4e5;
+  padding: 11px 29px;
+  text-decoration: none;
+}
+
+.capabilities__link:hover {
+  color: #00a4e5;
+  background-color: #ffffff;
+  outline: 1px solid #00a4e5;
+}
+
+.capabilities__wrap-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.capabilities__card {
+  width: 295px;
+  padding: 38px 22px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+.capabilities__card-img {
+  margin-bottom: 25px;
+}
+
+.capabilities__card-title {
+  margin-bottom: 13px;
+}
+
+.intouch {
+  background-image: url("../image/bgintouch.jpg");
+  background-color: #171819;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 498.24px;
+  padding-top: 120px;
+  margin: -2px;
+}
+
+.intouch__title {
+  display: block;
+  color: #48555b;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.intouch__button {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #00a4e5;
+  padding: 11px 26px;
+  border: none;
+  margin: 0 auto;
+}
+
+.intouch__button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #00a4e5;
+  outline: 1px solid #00a4e5;
+}
+
+/* signup */
+
+.signup {
+  background-color: #171819;
+}
+
+.signup__wrap {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.signup__title {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 70px;
+}
+
+.signup__input-text {
+  color: #48555b;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 11px 16px;
+  height: 40px;
+  width: 250px;
+  margin-right: -6px;
+  border: none;
+}
+
+.signup__input-text:active {
+  border: none;
+}
+
+.signup__input-button {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #00a4e5;
+  padding: 11px 49px;
+  border: none;
+  height: 40px;
+}
+
+.signup__input-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #00a4e5;
+  outline: 1px solid #00a4e5;
+}
+/* footer */
+.main-footer {
+  background-color: #171819;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+.main-footer__text {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/* <section class="signup">
+      <div class="container">
+        <div class="signup__wrap">
+     <h2 class="signup__title">Newsletter Signup</h2>
+        <div class="signup__input-wrap">
+          <input class="signup__input-text" placeholder="test@youremail.com" type="text" />
+          <button class="signup__input-button">SIGNUP</button>
+        </div>
+        </div>
+      </div>
+    </section>
+       */
