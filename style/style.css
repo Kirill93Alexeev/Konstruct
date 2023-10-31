@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 940px;
+  max-width: 955px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -81,11 +81,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
+  
 }
 
 .main-header__nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   min-width: 411.5px;
 }
 
@@ -209,6 +211,7 @@ body {
 .capabilities__link {
   display: block;
   width: 150px;
+  height: 40px;
   color: #fff;
   text-align: center;
   font-size: 13px;
