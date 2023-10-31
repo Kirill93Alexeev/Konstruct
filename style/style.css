@@ -16,6 +16,7 @@ body {
   padding: 0 15px;
 }
 
+
 /* hero */
 .hero {
   background-image: url("../image/bghero.jpg");
@@ -60,21 +61,20 @@ body {
 .hero__scroll {
   color: #fff;
   text-align: center;
-  font-family: Open Sans;
   font-size: 11px;
   font-weight: 700;
   text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .hero__scroll:hover {
   cursor: pointer;
   color: #00a4e5;
-  transition: 0.5s;
   transform: scale(110%);
 }
 
 /* header */
-
 .main-header__wrap {
   min-height: 65px;
   display: flex;
@@ -95,12 +95,12 @@ body {
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+   transition: 0.5s;
 }
 
 .main-header__nav-item:hover {
   cursor: pointer;
   color: #00a4e5;
-  transition: 0.5s;
   transform: scale(110%);
 }
 
@@ -126,10 +126,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 128px;
+  flex-wrap: wrap;
 }
 
 .story__info {
   max-width: 405.076px;
+  margin-bottom: 15px;
 }
 
 .story__info-title {
@@ -156,6 +158,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 460px;
+  flex-wrap: wrap;
 }
 
 .story__img-item-wrap {
@@ -224,6 +227,7 @@ body {
 .capabilities__wrap-bottom {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .capabilities__card {
@@ -231,15 +235,28 @@ body {
   padding: 38px 22px;
   border: 1px solid #e6e6e6;
   background: #fff;
+  margin-bottom: 15px;
 }
+
 
 .capabilities__card-img {
   margin-bottom: 25px;
 }
 
 .capabilities__card-title {
-  margin-bottom: 13px;
+color: #48555B;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 13px;
 }
+
+.capabilities__card-text {
+color: #48555B;
+font-size: 13px;
+font-weight: 400;
+}
+
 
 .intouch {
   background-image: url("../image/bgintouch.jpg");
@@ -249,7 +266,7 @@ body {
   background-size: cover;
   height: 498.24px;
   padding-top: 120px;
-  margin: -2px;
+  margin-bottom: -2px;
 }
 
 .intouch__title {
@@ -311,6 +328,7 @@ body {
   width: 250px;
   margin-right: -6px;
   border: none;
+  outline: none;
 }
 
 .signup__input-text:active {
@@ -334,7 +352,9 @@ body {
   color: #00a4e5;
   outline: 1px solid #00a4e5;
 }
+
 /* footer */
+
 .main-footer {
   background-color: #171819;
   min-height: 60px;
@@ -346,16 +366,3 @@ body {
   font-size: 11px;
   font-weight: 400;
 }
-
-/* <section class="signup">
-      <div class="container">
-        <div class="signup__wrap">
-     <h2 class="signup__title">Newsletter Signup</h2>
-        <div class="signup__input-wrap">
-          <input class="signup__input-text" placeholder="test@youremail.com" type="text" />
-          <button class="signup__input-button">SIGNUP</button>
-        </div>
-        </div>
-      </div>
-    </section>
-       */
