@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konstruct</title>
-    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,15 +38,36 @@
     <header class="main-header" id="header">
       <div class="container">
         <div class="main-header__wrap">
-          <img src="./image/projeco-logo-black.png" alt="Logo" />
+          <img
+            class="main-logo"
+            src="./image/projeco-logo-black.png"
+            alt="Logo"
+          />
           <nav class="main-header__nav">
             <a href="#" class="main-header__nav-item">HOME</a>
             <a href="#" class="main-header__nav-item">ABOUT</a>
             <a href="#" class="main-header__nav-item">SERVICES</a>
             <a href="#" class="main-header__nav-item">WORK</a>
             <a href="#" class="main-header__nav-item">CONTACT</a>
-            
           </nav>
+          <button class="mobile-burger">
+<img src="./image/Group 3 (1).svg" alt="" class="nav-mobile-icon" />
+          </button>
+          <div class="mobile d-none">
+            <nav class="mobile__nav">
+            <a href="#" class="mobile__nav-item nav-home">HOME</a>
+            <a href="#" class="mobile__nav-item nav-about">ABOUT</a>
+            <a href="#" class="mobile__nav-item nav-services">SERVICES</a>
+            <a href="#" class="mobile__nav-item nav-work">WORK</a>
+            <a href="#" class="mobile__nav-item nav-contact">CONTACT</a>
+          </nav>
+                <button class="mobile-close">
+            <svg class="main-header__mobile-nav-close-svg" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+  <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282"/>
+  <rect x="0.831299" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831299 19.5566)" fill="#828282"/>
+</svg>
+          </button>
+          </div>
         </div>
       </div>
     </header>
@@ -58,8 +79,9 @@
         <div class="story__wrap">
           <div class="story__info">
             <h3 class="story__info-title">
-              Founded in 2011 by John Mathew Smith, <span class="story__info-title-span">Konstruct</span> has become the
-              number one construction management
+              Founded in 2011 by John Mathew Smith,
+              <span class="story__info-title-span">Konstruct</span> has become
+              the number one construction management
             </h3>
             <p class="story__info-text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
@@ -164,19 +186,25 @@
     <section class="signup">
       <div class="container">
         <div class="signup__wrap">
-     <h2 class="signup__title">Newsletter Signup</h2>
-        <div class="signup__input-wrap">
-          <label class="signup__input for=""></label>
-          <input class="signup__input-text" placeholder="test@youremail.com" type="text" />
-          <button class="signup__input-button">SIGNUP</button>
-        </div>
+          <h2 class="signup__title">Newsletter Signup</h2>
+          <div class="signup__input-wrap">
+            <input
+              class="signup__input-text"
+              placeholder="test@youremail.com"
+              type="text"
+            />
+            <button class="signup__input-button">SIGNUP</button>
+          </div>
         </div>
       </div>
     </section>
     <footer class="main-footer">
       <div class="container">
-        <p class="main-footer__text">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+        <p class="main-footer__text">
+          © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+        </p>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
