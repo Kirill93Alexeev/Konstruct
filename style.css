@@ -388,7 +388,6 @@ font-weight: 400;
 
 .signup__title {
   color: #fff;
-  text-align: center;
   font-size: 22px;
   font-weight: 700;
   margin-right: 70px;
@@ -431,6 +430,8 @@ font-weight: 400;
 
 .signup__input-wrap {
 display: flex;
+align-items: center;
+justify-content: center;
 }
 /* footer */
 
@@ -480,8 +481,9 @@ font-size: 20px;
 }
 
 .signup__title {
-  text-align: center;
+
 }
+
 .signup__title {
 margin: 0;
 }
