@@ -265,6 +265,7 @@ transform: scale(110%);
 .capabilities__line {
   width: 50px;
   border-color: #00a4e5;
+  margin-bottom: 25px;
 }
 
 .capabilities__text {
@@ -273,6 +274,7 @@ transform: scale(110%);
   color: #48555b;
   font-size: 11px;
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 .capabilities__link {
@@ -465,12 +467,12 @@ display: flex;
  }
 
 .capabilities__line {
-  margin-bottom: 25px;
+  
 }
 
 .capabilities__text {
 font-size: 20px;
-margin-bottom: 15px;
+
 }
 
 .capabilities__card {
@@ -485,7 +487,7 @@ margin: 0;
 }
 
 .signup__input-text {
-  max-width: 180px;
+  width: 180px;
 }
 
 
