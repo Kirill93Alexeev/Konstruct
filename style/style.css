@@ -406,6 +406,10 @@ font-weight: 400;
   outline: none;
 }
 
+input {
+  font-size: 14px;
+}
+
 .signup__input-text:active {
   border: none;
 }
